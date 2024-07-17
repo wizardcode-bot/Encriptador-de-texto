@@ -26,5 +26,10 @@ Este es el primer reto Alura, del curso [ONE - Oracle Next Education](https://ww
 ## 📂 Acceso al proyecto
 Puedes obtener este proyecto clonando el siguiente repositorio
 ```
+https://github.com/wizardcode-bot/Encriptador-de-texto.git
+```
+Para ejecutar el proyecto abre el archivo `index.html` puedes realizar los cambios que desees en el código para acomodarlo a tu gusto.
 
-``` 
+## :mag_right: Visualización online
+Puedes visualizar el proyecto de manera online a través del siguiente enlace: 
+[Encriptador de texto]() 
