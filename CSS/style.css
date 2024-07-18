@@ -12,7 +12,7 @@ Global Css
     --White-Blue:#D8DFE8;
     --Medium-Blue:#0a38718a;
     --Gray:#343A40;
-    --Gree:#495057;
+    --Card-text:#495057;
 }
 
 *{
@@ -38,15 +38,15 @@ img{
 }
 
 header{
-    position: absolute;
-    margin: 40px 0px 0px 40px;
+    position: absolute; 
 }
 
 header .logo{
-display: flex;
-align-items: flex-start;
-width: 120px;
-height: 48px;
+    display: flex;
+    align-items: flex-start;
+    width: 120px;
+    height: 48px;
+    margin: 40px 0px 0px 40px;
 }
 
 main{
@@ -64,7 +64,7 @@ main{
 
 .encriptar{
     width: 42rem;
-    height: 18rem;
+    height: 19rem;
     font-weight: 400;
     font-size: 2rem;
     line-height: 3rem;
@@ -90,7 +90,7 @@ main{
     padding: 0;
     gap: 8px;
     position: absolute;
-    top: 484px;
+    top: 500px;
 }
 
 .texto-aviso{
@@ -101,6 +101,7 @@ main{
     line-height: 150%;
     opacity: 0.8;
     color: var(--Medium-Gray);
+    /* margin-top: 2rem; */
 }
 
 .encriptador-contenedor{
@@ -110,6 +111,7 @@ main{
     gap: 24px;
     position: absolute;
     top: 526px;
+    margin-top: 2rem;
 }
 
 /* Características comúnes entre los dos botones */
@@ -194,16 +196,15 @@ main{
     box-shadow: #0A3871 1px 3px 5px 1px;
 }
 
-
-
 .tarjeta{
-    width: 270px;
-    height: 580px;
-    background: var(--Font);
-    box-shadow: 10px 24px 32px -8px var(--Gray);
+    width: 19rem;
+    height: 36rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-top: 40px;
-    border-radius: 32px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
     text-align: center;
 }
 
@@ -211,11 +212,11 @@ main{
     width: 250px;
     margin: auto;
     margin-top: 50%;
-    background: var(--Font);
+    background: white;
 }
 
 .img-muñeco{
-    background: var(--Font);
+    background: white;
 }
 
 .texto-uno{
@@ -225,7 +226,8 @@ main{
     line-height: 120%;
     text-align: center;
     color: var(--Gray);
-    background: var(--Font);
+    background: white;
+    margin-top: 2rem;
 }
 
 .texto-dos{
@@ -235,20 +237,20 @@ main{
     line-height: 150%;
     text-align: center;
     color: var(--Medium-Gray);
-    background: var(--Font);
+    background: white;
 }
 
 .evaluar{
     width: 100%;
     height: 485px;
     position: absolute;
-    padding: 20px;
+    padding: 2rem;
     top: 0;
     left: 0;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: var(--Gree);
+    color: var(--Card-text);
     background: transparent;
     border-top-right-radius: 32px;
     border-top-left-radius: 32px;
@@ -261,9 +263,9 @@ main{
 }
 
 .btn-copiar{
-    width: 224px;
-    height: 67px;
-    margin: 23px;
+    width: 80%;
+    height: auto; /*67px*/
+    margin: 2rem; 
     position: absolute;
     bottom: 0;
     left: 0;
@@ -376,7 +378,6 @@ Media
     
     header .logo{
         width: 100%;
-        background: var(--White);
         padding: 2px;
     }
 
