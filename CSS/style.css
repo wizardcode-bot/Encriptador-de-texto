@@ -101,7 +101,6 @@ main{
     line-height: 150%;
     opacity: 0.8;
     color: var(--Medium-Gray);
-    /* margin-top: 2rem; */
 }
 
 .encriptador-contenedor{
@@ -151,7 +150,7 @@ main{
     background: var(--White-Blue);
     color: var(--Medium-Blue);
     box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra interna */
-    transform: scale(0.98); /* Reducir ligeramente la escala */
+    transform: scale(0.98); /* Reduce  la escala */
     border: 1px solid var(--Medium-Blue);
 }
 
@@ -264,7 +263,7 @@ main{
 
 .btn-copiar{
     width: 80%;
-    height: auto; /*67px*/
+    height: auto; 
     margin: 2rem; 
     position: absolute;
     bottom: 0;
@@ -286,30 +285,49 @@ main{
     transform: scale(0.97);
 }
 
-/*------------------
-Pie De Página
-------------------*/
-footer{
-    margin-top: 15px;
-    padding: 10px;
-    border-top: 2px solid var(--Font);
-    color: var(--Gray);
+footer {
+    padding: 20px 0;
+    background-color: #F3F5FC; 
+    border-top: 1px inset var(--Medium-Blue);
     text-align: center;
-    height: 5px;
-    font-size: 20px;
-    font-weight: 700;
+    color: var(--Dark-blue);
 }
 
-.Linkedin:hover{
-    opacity: 0.6;
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
+
+footer .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+footer .social-icon {
+    width: 2rem; 
+    height: 2rem;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-icon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+}
+
 
 .Github:hover{
     opacity: 0.6;
 }
 
 /*---------------
-Media
+Media queries - Responsive para dos medidas más pequeñas
 ----------------*/
 @media(max-width: 1250px){
     main{
@@ -371,6 +389,15 @@ Media
         height: 210px;
         padding: 10px;
     }
+
+    .btn-limpiar {
+        position: relative; 
+        left: auto;
+        right: auto;
+        margin-top: 10px; 
+        width: 120px; 
+        padding: 0.5rem 1rem; 
+    }
 }
 
 
@@ -397,6 +424,15 @@ Media
 
     .copyright{
         font-size: 20px;
+    }
+
+    .btn-limpiar {
+        position: relative; 
+        left: auto;
+        right: auto;
+        margin-top: 10px; 
+        width: 100px; 
+        padding: 0.4rem 0.8rem; 
     }
 }
 
