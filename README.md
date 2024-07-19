@@ -1,7 +1,7 @@
 <h1 align="center">💻 Encriptador de texto</h1> 
 
 <p>
-  <img src="http://img.shields.io/static/v1?label=ESTADO&message=EN%20DESARROLLO&color=RED&style=for-the-badge" #vitrinedev/>
+  <img src="http://img.shields.io/static/v1?label=ESTADO&message=FINALIZADO&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
